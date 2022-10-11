@@ -1,22 +1,41 @@
 body {
-  background-color: rgb(215, 215, 215);
+  background-color: #F8EABA;
 }
 
-nav {
+.header-line {
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #094649;
+  padding: 5px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.header-line h2 {
+  display: grid;
+  justify-items: left;
+  color: #E8CD6E;
+  margin-left: 160px;
+}
+
+.menu {
   text-decoration: none;
   display: flex;
-  justify-content: space-around;
-  background-color: rgb(61, 61, 61);
-  padding: 15px;
-  margin: 0px;
-  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px 100px 0px 100px;
+  background-color: #094649 ;
+  color: #E8CD6E;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
   letter-spacing: 1px;
 }
 
 nav a {
-  color: white;
+  color: #E8CD6E;
   text-decoration: none;
 }
 
