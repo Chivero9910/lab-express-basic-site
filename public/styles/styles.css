@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(215, 215, 215);
+}
+
+nav {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(61, 61, 61);
+    padding: 15px;
+    margin: 0px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+#home-image {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#about-page {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+
+
+#about {
+    margin-right: 20px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+#about p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#works-principal {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+#childs {
+    grid-column: 1/2;
+    
+}
+
+#adults {
+    grid-column: 2/3;
+}
+
+#illustrations {
+    grid-column: 1/3;
+}
